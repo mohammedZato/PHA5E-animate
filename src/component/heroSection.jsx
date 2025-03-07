@@ -14,9 +14,11 @@ export default function HeroSection() {
                     <img className="w-full max-w-[25rem] object-cover rounded-sm md:hover:-translate-x-10 transition-transform duration-[1500ms] md:hover:scale-90 lg:hover:-translate-x-32 lg:hover:scale-150" src={fire} alt="fire-image" />
                     <img className="w-full max-w-[25rem] object-cover rounded-sm md:hover:translate-x-10 transition-transform duration-[1500ms] md:hover:scale-90 lg:hover:translate-x-32 lg:hover:scale-150" src={field} alt="field-image" />
                 </div>
-                <p className="text-gray-200 font-extrabold absolute top-[150px] font-serif text-4xl mt-20 sm:text-6xl sm:top-[110px] md:text-7xl md:top-[85px] md:right-8 lg:mx-40">
-                    IMAGINING UNIQUE CON- <br />CEPTS AND DIGITAL EXPER- <br />IENCES
-                </p>
+                <div className="bg-red-700">
+                    <p className="text-gray-200 font-extrabold absolute top-[150px] font-serif text-4xl mt-20 sm:text-6xl sm:top-[110px] md:text-7xl md:top-[85px] md:right-8 lg:mx-40">
+                        IMAGINING UNIQUE CON- <br />CEPTS AND DIGITAL EXPER- <br />IENCES
+                    </p>
+                </div>
             </div>
         </div>
     )
