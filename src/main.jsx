@@ -5,7 +5,7 @@ import GlobalState from './context.jsx'
 import { BrowserRouter } from 'react-router-dom'
 
 createRoot(document.getElementById('root')).render(
-    <BrowserRouter>
+    <BrowserRouter basename='PHA5E-animate'>
         <GlobalState>
             <App />
         </GlobalState>
